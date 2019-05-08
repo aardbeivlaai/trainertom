@@ -21,7 +21,7 @@
    
     justify-content : center;
     align-items : center;
-    margin-top: 8%;
+    margin-top: 4%;
     color : black;
   
   }
@@ -91,9 +91,10 @@
     margin-top: 4%;
     float: right;
     position: absolute;
-    margin-left: -37%;
-    height: 845px;
-  }
+    margin-left: -46%;
+    height: 765px;
+}
+  
 
 
   .imgPeople {
