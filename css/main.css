@@ -18,7 +18,7 @@
   }
 
    .left{
-    display : flex;
+   
     justify-content : center;
     align-items : center;
     background-color: white;
@@ -50,6 +50,7 @@
     font-weight: 100;
     margin-top: 5px; 
     
+    
  }
 
   .purpleLine {
@@ -58,11 +59,19 @@
     font-family: 'Open Sans';
     font-weight: 400;
     margin-left: 10px; 
+    
   }
 
 
   .imgTom {
-      width: 7%;
+      width: 20%;
+      display: flex;
+  }
+
+  .pText {
+      font-family: 'Open Sans';
+      margin-top: 20px; 
+     
   }
   /* END SPLITSCREEN */
 
