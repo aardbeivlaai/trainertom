@@ -110,11 +110,13 @@
     width: 15%;
     margin-top: 63%;
     margin-left: 29%;
+    transition: 0.5s;
+   
   }
 
   .uploadIcon:hover {
     opacity: 0.5; 
-    transition: 0.3s; 
+     
   }
   /* END SPLITSCREEN */
 
