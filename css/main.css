@@ -4,15 +4,26 @@
    Author's custom styles
    ========================================================================== */
 
+   html{
+    height:100%
+   }
+   body{
+    height:100%;
+   }
+
 /* SPLIT SCREEN */
+
+  .intro{
+    height:100%
+  }
 
    .left{
     display : flex;
     justify-content : center;
     align-items : center;
-    background-color:#3d231b;
-    height : 100%;
-    color : #FFF;
+    background-color: white;
+    
+    color : black;
   
   }
   .right{
@@ -31,8 +42,28 @@
       height:50%
     }
   }
+ .underText {
+    color: black;
+    display: block; 
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    margin-top: 5px; 
+    
+ }
+
+  .purpleLine {
+    border-left: 7px solid purple;
+    padding-left: 10px; 
+    font-family: 'Open Sans';
+    font-weight: 400;
+    margin-left: 10px; 
+  }
 
 
+  .imgTom {
+      width: 7%;
+  }
   /* END SPLITSCREEN */
 
 
