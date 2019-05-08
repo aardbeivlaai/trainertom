@@ -1,0 +1,188 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   html{
+    height:100%
+   }
+   body{
+    height:100%;
+   }
+
+/* SPLIT SCREEN */
+
+  .intro{
+    height:100%
+  }
+
+   .left{
+   
+    justify-content : center;
+    align-items : center;
+    margin-top: 4%;
+    color : black;
+    padding-left: 3%;
+  }
+  .right{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    height : 100%;
+    color : #3d231b;
+  }
+  @media (max-width: 1200px) { 
+    .left{
+      height:50%
+    }
+    .right{
+      height:50%
+    }
+  }
+ .underText {
+    color: white;
+    display: block; 
+    font-size: 20px;
+    font-family: 'Open Sans';
+    font-weight: 100;
+    margin-top: 5px; 
+    
+    
+ }
+
+  .purpleLine {
+    border-left: 5px solid #EA2269;
+    padding-left: 10px; 
+    font-family: 'Open Sans';
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 10px; 
+    color: white;
+    
+  }
+
+
+  .imgTom {
+      width: 18%;
+      display: flex;
+      margin-top: 20px; 
+  }
+
+  .pText {
+      font-family: 'Open Sans';
+      margin-top: 35px; 
+      width: 400px;
+     
+  }
+
+  .pTextBox {
+    font-family: 'Open Sans';
+    margin-top: 35px; 
+    width: 400px;
+    color: black;
+    background-color: white;
+    margin-left: 3%;
+}
+
+  .pTextBack {
+    color: white;
+    margin-top: 35px; 
+    font-family: 'Open Sans';
+  }
+
+
+  .box {
+    padding: 0%; 
+    border: 1px solid rgba(0, 0, 0, .2);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1%;
+    width: 80%;
+    height: 100%;
+  }
+
+  .bgRight {
+    z-index: +22;
+    margin-top: -39%;
+    float: right;
+    position: absolute;
+    margin-left: -27%;
+    height: 600px;
+}
+  
+  .imgPeople {
+
+    z-index: 1;
+  }
+
+  .container {
+    margin: 2% !important;
+    background-color: #9279B7;
+    height: 93%;
+    width: 96%;
+  }
+
+  .uploadIcon {
+    z-index: 200; 
+    position: absolute;
+    width: 15%;
+    margin-top: 63%;
+    margin-left: 29%;
+    transition: 0.5s;
+   
+  }
+
+  .uploadIcon:hover {
+    opacity: 0.5; 
+     
+  }
+
+  h3 {
+    color:black; 
+    font-family: 'Open Sans';
+  }
+
+  .h3Title {
+    margin-left: 6%;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  ul li::before {
+    content: "\2022";
+    color: #EA2269;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+    a:link {
+    color: white;
+    transition: 0.5s;
+    }
+    a:visited {
+    color: white;
+    }
+    a:hover {
+    color: #EA2269;
+    text-decoration: none;
+    }
+
+  /* END SPLITSCREEN */
+
+
+
+
+
+
+
+
+
+
+
+
+
