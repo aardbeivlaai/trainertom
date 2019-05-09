@@ -92,7 +92,7 @@
     float: right;
     position: absolute;
     margin-left: -46%;
-    height: 765px;
+    height: 758px;
 }
   
   .imgPeople {
@@ -121,8 +121,18 @@
   /* END SPLITSCREEN */
 
 
+  /* UPLOAD BUTTON FILE SELECTOR */
 
+  .image-upload > input
+  {
+      display: none;
+  }
 
+  .form {
+    display: none;
+  }
+
+ /* END UPLOAD BUTTON FILE SELECTOR */
 
 
 
